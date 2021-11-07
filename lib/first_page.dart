@@ -21,7 +21,7 @@ class FirstPage extends StatelessWidget {
           letterSpacing: 3,
             ),
           ),
-          alignment: Alignment.bottomCenter,
+          alignment: const Alignment(0,1),
         ),
       ),
     );
