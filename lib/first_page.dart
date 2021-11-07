@@ -12,16 +12,16 @@ class FirstPage extends StatelessWidget {
           width: size.width * 0.8,
           height: size.height / 2,
           color: Colors.amberAccent,
-          child: const Center(
-              child: Text(
+          child: const Text(
             "Hellow world",
             style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: Colors.black,
-              letterSpacing: 3,
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+          color: Colors.black,
+          letterSpacing: 3,
             ),
-          )),
+          ),
+          alignment: Alignment.bottomCenter,
         ),
       ),
     );
